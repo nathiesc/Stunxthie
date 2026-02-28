@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.Y.S.T.E.M. | Protocolo de Cifrado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="matrixCanvas"></canvas>
+
+    <div class="terminal-container">
+        <header class="top-bar">
+            <span>SISTEMA DE OPERACIONES ENCUBIERTAS</span>
+            <button id="pistaBtn" class="hidden">SOLICITAR PISTA (SOPORTE)</button>
+            <span>ESTADO: <span class="online">AUTENTICACIÓN REQUERIDA</span></span>
+        </header>
+
+        <div id="output" class="terminal-body"></div>
+
+        <div class="input-area">
+            <span class="prompt" id="promptText">SISTEMA:</span>
+            <input type="text" id="commandInput" autofocus autocomplete="off" spellcheck="false">
+            <span class="cursor"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
